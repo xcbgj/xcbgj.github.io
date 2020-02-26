@@ -59,17 +59,25 @@ a:active {
         <p><a href="https://xcbgj.github.io/Videos/av11425.Mp4">p1--【巨猎奇】SM666风..胆小慎入</a></p>
      <br />
      <br />
-	<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8"/>  <!-- html encode type-->
-        <title>留言板</title>
-    </head>
-    <body>
-        <form action="sava_book.php" method="post">
-        <p>用户名<input type="text" name="username"></p>
-        <p>留言板<textarea name="content"></textarea></p>
-        <p><input type="submit" value="留言"></p>
-        </form>
-      </body>
-   </html>
+	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
+<script src="https://wow.techbrood.com/libs/jquery/jquery-1.11.1.min.js"></script>
+<article class="contentainer flex column">
+    <div class="coursainer flex column">
+        <input type="checkbox" id="add-form-checkbox" style="display: none;">
+        <div>
+            <p>Ugh Title</p>
+            <label onclick="remove();"><i class="material-icons">delete_forever</i>
+            </label>
+            <label for="add-form-checkbox"><i class="material-icons">add</i>
+            </label>
+        </div>
+        <section class="add-form flex column">
+            <input type="text" id="ugh-text" placeholder="Ugh Text">
+            <input type="text" id="ugh-date" placeholder="Ugh Date">
+            <button onclick="add();">Ugh Add</button>
+        </section>
+        <div class="courses-list" id="courses-list"></div>
+    </div>
+</article>
