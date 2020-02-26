@@ -59,52 +59,7 @@ a:active {
         <p><a href="https://xcbgj.github.io/Videos/av11425.Mp4">p1--【巨猎奇】SM666风..胆小慎入</a></p>
      <br />
      <br />
-    <script>  
-function Ok_OnClick(event)  
-{  
-if(document.getElementsByName("textName")[0].value == ""){  
-alert("請輸入內容");  
-return;  
-}//getElementById  
-var table;  
-var tableList = document.getElementsByTagName("TABLE");  
-for(var i = 0 ; i < tableList.length ; i++) {  
-if(tableList[i].name == "tableName") {  
-table = tableList[i]  
-break;  
-}  
-}  
-var value = document.getElementsByName("textName")[0].value;  
-var index = table.rows.length;  
-table.insertRow(index);  
-table.rows(index).insertCell(0);  
-table.rows(index).cells(0).innerText = value;  
-document.getElementsByName("textName")[0].value = "";  
-}  
-</script>   
-
-<HTML>  
-<HEAD>  
-<META http-equiv="Content-Type" content="text/html; charset=gb2312">  
-<TITLE>留言版</TITLE>  
-<STYLE>  
-td{width:20%;height:20px;border-bottom:1px solid black;border-right:1px solid black;cursor:default;}  
-div{font-size:13px;}  
-th{height:20px;font-size:12px;font-weight:normal;border-bottom:2px solid black;background-color:#CCCCCC}  
-table{border:1px solid black;font-size:13px;}  
-</STYLE>  
-</HEAD>  
-
-<BODY oncontextmenu="return false;"">   
-<TABLE name="tableName" width="70%" align="center" cellpadding="0" cellspacing="0">   
-<TR>   
-<TH colspan="4" style="">留言版</TH>   
-</TR>   
-<TR>   
-<TD>在網上抄的留言板（￣︶￣）↗</TD>   
-</TR>   
-</TABLE>   
-<BR>  
+	<BR>  
 <div align="center">  
 
 <textarea rows="2" name="textName" id="textId" cols="20"  
